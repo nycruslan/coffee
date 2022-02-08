@@ -1,0 +1,46 @@
+.order > * {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(2, 8rem );
+}
+
+.order div > * {
+  margin: .5rem 0;
+}
+
+.delete {
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 1rem;
+  background-color: orangered;
+  color: #fff;
+  cursor: pointer;
+}
+.green-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: greenyellow;
+  color: #000;
+  cursor: pointer;
+}
+
+div.orders-component {
+  padding: 5px;
+}
+
+div.orders-component div.order {
+  border: 1px solid white;
+  margin: 10px 5px;
+  padding: 15px;
+}
+
+.order-complete {
+  margin: 1rem 2rem;
+  color: greenyellow;
+}
+.order-pending {
+  margin: 1rem 2rem;
+}

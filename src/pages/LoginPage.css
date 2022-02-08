@@ -1,0 +1,13 @@
+.login-component {
+  padding: 10px;
+}
+
+.login-component label {
+  display: grid;
+  grid-template-columns: repeat(2, 7rem 15rem);
+}
+
+.login-component form input {
+  margin: 5px;
+  padding: 2px;
+}

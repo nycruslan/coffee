@@ -1,0 +1,17 @@
+.user-details-component {
+  display: flex;
+  align-items: center;
+}
+
+.user-details-component a {
+  color: #FFF;
+  margin: 0 15px;
+}
+
+.user-details-component button {
+  margin: 0 5px;
+}
+
+.user-details-component a + button {
+  margin-left: 0;
+}

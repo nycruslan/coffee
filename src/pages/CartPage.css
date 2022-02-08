@@ -1,0 +1,33 @@
+.cart-component {
+  padding: 10px;
+}
+
+.cart-component h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #fff;
+  border-collapse: collapse;
+
+}
+
+th, td {
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+td > * {
+  margin: 10px;
+}
+
+.cart-component label {
+  display: grid;
+  grid-template-columns: repeat(2, 6rem 15rem);
+}
+
+.cart-component form input {
+  margin: 5px;
+  padding: 2px;
+}
